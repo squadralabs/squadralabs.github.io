@@ -1,9 +1,9 @@
-title:              Squadra Labs
+title:              Squadra Labs Blog
 email:              info@squadralabs.com
-description:        Tby Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+description:        The Data Blog of Squadra Labs
+author:             Squadra Labs
+baseurl:            ""
+url:                "" 
 
 # Social Profiles
 github_username:    squadralabs
