@@ -7,13 +7,14 @@ url:                ""
 
 # Social Profiles
 github_username:    squadralabs
-instagram_username: squadralabs
-linkedin_username:  squadralabs
+instagram_username: squadra.labs
+linkedin_company:   squadra-labs
 
 # Add your google-analytics ID here to activate google analytics
 # google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
+# TODO: what is this?
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
