@@ -1,3 +1,4 @@
+# General fields
 title:              Squadra Labs Blog
 email:              info@squadralabs.com
 description:        The Data Blog of Squadra Labs
@@ -10,9 +11,6 @@ github_username:    squadralabs
 instagram_username: squadra.labs
 linkedin_company:   squadra-labs
 
-# Add your google-analytics ID here to activate google analytics
-# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
-
 # Build settings
 # TODO: what is this?
 markdown:           kramdown
@@ -22,3 +20,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
