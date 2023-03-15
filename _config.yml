@@ -1,0 +1,23 @@
+# General fields
+title:              Squadra Labs Blog
+email:              info@squadralabs.com
+description:        The Data Blog of Squadra Labs
+author:             Squadra Labs
+baseurl:            ""
+url:                "" 
+
+# Social Profiles
+github_username:    squadralabs
+instagram_username: squadra.labs
+linkedin_company:   squadra-labs
+
+# Build settings
+# TODO: what is this?
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
