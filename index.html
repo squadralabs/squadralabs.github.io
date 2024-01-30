@@ -1,251 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Titles -->
+    <title>Squadra Labs</title>
+    <meta name="description" content="Your Data-driven partner" />
+    <meta
+      name="keywords"
+      content="AI, Artificial Intelligence, Data Science, Data Engineering, ML, Machine Learning,"
+    />
+    <!-- Theme colors -->
+    <meta name="color-scheme" content="only light" />
+    <!-- Fonts -->
+    <!-- TODO: download fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Site Icons -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/sq/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- CSS / SCSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- Titles -->
-  <title>Squadra Labs</title>
-  <meta name="description" content="Your Data-driven partner">
-  <meta name="keywords" content="AI, Artificial Intelligence, Data Science, Data Engineering, ML, Machine Learning,">
-  <!-- Theme colors -->
-  <meta name="color-scheme" content="only light">
-  <!-- Fonts -->
-  <!-- TODO: download fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <!-- Font Awesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Site Icons -->
-  <link rel="shortcut icon" href="assets/img/sq/favicon.ico" type="image/x-icon">
-  <!-- CSS / SCSS -->
-  <link rel="stylesheet" href="css/main.css" />
-</head>
-
-<body>
-
-  <!-- Hero (with Navbar)-->
-  <header class="hero">
-    <nav class="navbar">
-      <div class="container">
-        <div class="logo">
-          <a href="index.html">
-            <img src="assets/img/sq/isologo-trim.png" width="50" alt="Squadra Labs" />
-          </a>
-        </div>
-        <div class="main-menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#benefits">Benefits</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="hero-content spacing">
-        <h1 class="hero-title">Empower your business with <span class="accent">data</span></h1>
-        <p>We help organizations to transform data into actionable insights by implementing AI and Cloud architecture
-          solutions</p>
-        <a href="https://calendly.com/mariano-allevato-squadra/30min" target="_blank" class="btn">Schedule a meeting</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- Content -->
-  <main>
-    <section class="bkg-light" id="services">
-      <div class="container spacing">
-        <h2 class="section-title">Our <span class="accent">Services</span></h2>
-        <p class="section-description">We create data products and services that enable organizations to unlock the
-          power of their data and solve their business processes.</p>
-
-        <ul class="cards">
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__image card__image--ai"></div>
-              <div class="card__content">
-                <div class="card__title">
-                  Artificial Intelligence
-                </div>
-                <p class="card__text">
-                  Create intelligent data products and services to solve businesses processes.</p>
-              </div>
-            </div>
-          </li>
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__image card__image--ds"></div>
-              <div class="card__content">
-                <div class="card__title">
-                  Data Science
-                </div>
-                <p class="card__text">
-                  Make data-driven decisions by building predictive models to identify patterns and trends.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__image card__image--de"></div>
-              <div class="card__content">
-                <div class="card__title">
-                  Data Engineering
-                </div>
-                <p class="card__text">
-                  Collect, store and analyze data with a robust cloud architecture.
-                </p>
-              </div>
-            </div>
-          </li>
-      </div>
-    </section>
-
-    <section class="tools">
-      <!-- <div class="container"> -->
-        <div class="slider">
-          <div class="slide-track">
-              <img src="assets/img/tools/logo-azure.png" alt="Azure"> 
-              <img src="assets/img/tools/logo-gcp.png" alt="GCP">
-              <img src="assets/img/tools/logo-aws.png" alt="AWS">
-              <img src="assets/img/tools/logo-airflow.png" alt="Airflow">
-              <img src="assets/img/tools/logo-dbt.png" alt="dbt">
-              <img src="assets/img/tools/logo-powerbi.png" alt="PowerBI">
-              <img src="assets/img/tools/logo-sigma.png" alt="Sigma">
-
-              <img src="assets/img/tools/logo-azure.png" alt="Azure">
-              <img src="assets/img/tools/logo-gcp.png" alt="GCP">
-              <img src="assets/img/tools/logo-aws.png" alt="AWS">
-              <img src="assets/img/tools/logo-airflow.png" alt="Airflow">
-              <img src="assets/img/tools/logo-dbt.png" alt="dbt">
-              <img src="assets/img/tools/logo-powerbi.png" alt="PowerBI">
-              <img src="assets/img/tools/logo-sigma.png" alt="Sigma">
-              
-              <img src="assets/img/tools/logo-azure.png" alt="Azure"> 
-              <!-- <img src="assets/img/tools/logo-python.png" alt="Python"> -->
-              <!-- <img src="assets/img/tools/logo-sql.png" alt="SQL"> -->
-              <!-- <img src="assets/img/tools/logo-bash.png" alt="Bash"> -->
+  <body>
+    <!-- Hero (with Navbar)-->
+    <header class="hero">
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="assets/img/sq/isologo-trim.webp"
+                width="50"
+                alt="Squadra Labs"
+              />
+            </a>
+          </div>
+          <div class="main-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#benefits">Benefits</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
           </div>
         </div>
-      <!-- </div> -->
-    </section>
-
-
-    <section class="bkg-color" id="benefits">
-      <div class="container spacing">
-        <h2 class="section-title">Our <span class="accent">Benefits</span></h2>
-        <p class="section-description">By developing systems to ingest, transform and store data we can later create
-          custom analysis and AI products. Whether you need a data-driven application, a machine learning model or a
-          cloud data platform, we specialize to deliver results that meet your specific needs.</p>
-
-        <ul class="cards">
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__image card__image--revenue"></div>
-              <div class="card__content">
-                <div class="card__title">
-                  Maximize Revenue
-                </div>
-                <p class="card__text">
-                  Predict customers behaviors to understand customer needs and preferences.
-                  Predict customers behaviors to understand customer needs and preferences, personalize marketing
-                  efforts and increase customer acquisition.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__image card__image--measure"></div>
-              <div class="card__content">
-                <div class="card__title">
-                  Measure Accurately
-                </div>
-                <p class="card__text">
-                  Enhance trust in data and ensure reliable measurement of KPIs, such as marketing ROI, CAC, and MRR.
-                  Also, empower data-driven decision-making across all departments, from marketing to finance.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__image card__image--business"></div>
-              <div class="card__content">
-                <div class="card__title">
-                  Holistic Business View
-                </div>
-                <p class="card__text">
-                  Integrate multiple data sources into the cloud to enable a comprehensive view of your customers,
-                  helping to identify patterns, trends, and opportunities that may otherwise go unnoticed.
-                </p>
-              </div>
-            </div>
-          </li>
+      </nav>
+      <div class="container">
+        <div class="hero-content spacing">
+          <h1 class="hero-title">
+            Empower your business with <span class="accent">data</span>
+          </h1>
+          <p>
+            We help organizations to transform data into actionable insights by
+            implementing AI and Cloud architecture solutions
+          </p>
+          <a
+            href="https://calendly.com/mariano-allevato-squadra/30min"
+            target="_blank"
+            class="btn"
+            >Schedule a meeting</a
+          >
+        </div>
       </div>
-    </section>
+    </header>
 
-    <section class="testimonies" id="testimonies">
-      <div class="container spacing">
-        <h2 class="section-title">Our <span class="accent">Testimonies</span></h2>
-        <p class="section-description">Explore glowing recommendations from some of our key partners and clients </p>
+    <!-- Content -->
+    <main>
+      <!-- Services -->
+      <section class="bkg-light" id="services">
+        <div class="container spacing">
+          <h2 class="section-title">
+            Our <span class="accent">Services</span>
+          </h2>
+          <p class="section-description">
+            We create data products and services that enable organizations to
+            unlock the power of their data and solve their business processes.
+          </p>
 
-        <ul class="cards">
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__content">
-                <div class="card__title">
-                  Juan Guido - CEO @CTL
+          <ul class="cards">
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__image card__image--ai"></div>
+                <div class="card__content">
+                  <div class="card__title">Artificial Intelligence</div>
+                  <p class="card__text">
+                    Create intelligent data products and services to solve
+                    businesses processes.
+                  </p>
                 </div>
-                <p class="card__text">
-                  Squadra Labs was an excellent partner for our latest project. Their expertise in data integration
-                  complemented our strengths perfectly, and we collaborated closely to achieve our goals. We highly
-                  recommend them to any company looking for a skilled partner in data integration.
-                </p>
               </div>
-            </div>
-          </li>
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__content">
-                <div class="card__title">
-                  Victoriano - CEO @Graphext
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__image card__image--ds"></div>
+                <div class="card__content">
+                  <div class="card__title">Data Science</div>
+                  <p class="card__text">
+                    Make data-driven decisions by building predictive models to
+                    identify patterns and trends.
+                  </p>
                 </div>
-                <p class="card__text">
-                  We love what the Squadra Labs team is doing! They have a deep understanding of how to leverage data to
-                  drive business outcomes. We highly recommend Squadra Labs to anyone looking to make their company more
-                  data-driven.
-                </p>
               </div>
-          </li>
-          <li class="cards__item">
-            <div class="card">
-              <div class="card__content">
-                <div class="card__title">
-                  Ruben - CEO @Next Scenario
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__image card__image--de"></div>
+                <div class="card__content">
+                  <div class="card__title">Data Engineering</div>
+                  <p class="card__text">
+                    Collect, store and analyze data with a robust cloud
+                    architecture.
+                  </p>
                 </div>
-                <p class="card__text">
-                  I highly recommend Squadra Labs for data consulting services. Their team of experts are responsive,
-                  detail-oriented, and committed to delivering high-quality work. They took the time to understand my
-                  business needs and provide practical solutions that I could implement right away.
-                </p>
               </div>
-          </li>
-      </div>
-    </section>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-  </main>
+      <!-- Tools -->
+      <section class="tools" id="tools">
+        <div class="tools">
+          <div class="tools-slide">
+            <img src="assets/img/tools/logo-azure.webp" alt="Azure" />
+            <img src="assets/img/tools/logo-gcp.webp" alt="GCP" />
+            <img src="assets/img/tools/logo-aws.webp" alt="AWS" />
+            <img src="assets/img/tools/logo-airflow.webp" alt="Airflow" />
+            <img src="assets/img/tools/logo-dbt.webp" alt="dbt" />
+            <img src="assets/img/tools/logo-postgresql.webp" alt="PostgreSQL" />
+            <img src="assets/img/tools/logo-python.webp" alt="Python" />
+            <img src="assets/img/tools/logo-django.webp" alt="Django" />
+            <img src="assets/img/tools/logo-powerbi.webp" alt="PowerBI" />
+            <img src="assets/img/tools/logo-sigma.webp" alt="Sigma" />
+            <!-- Repeated -->
+            <img src="assets/img/tools/logo-azure.webp" alt="Azure" />
+            <img src="assets/img/tools/logo-gcp.webp" alt="GCP" />
+            <img src="assets/img/tools/logo-aws.webp" alt="AWS" />
+            <img src="assets/img/tools/logo-airflow.webp" alt="Airflow" />
+            <img src="assets/img/tools/logo-dbt.webp" alt="dbt" />
+            <img src="assets/img/tools/logo-postgresql.webp" alt="PostgreSQL" />
+            <img src="assets/img/tools/logo-python.webp" alt="Python" />
+            <img src="assets/img/tools/logo-django.webp" alt="Django" />
+            <img src="assets/img/tools/logo-powerbi.webp" alt="PowerBI" />
+            <img src="assets/img/tools/logo-sigma.webp" alt="Sigma" />
+          </div>
+        </div>
+      </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer__redes">
-      <ul class="footer__redes-wrapper">
+      <!-- Benefits -->
+      <section class="bkg-color" id="benefits">
+        <div class="container spacing">
+          <h2 class="section-title">
+            Our <span class="accent">Benefits</span>
+          </h2>
+          <p class="section-description">
+            By developing systems to ingest, transform and store data we can
+            later create custom analysis and AI products. Whether you need a
+            data-driven application, a machine learning model or a cloud data
+            platform, we specialize to deliver results that meet your specific
+            needs.
+          </p>
+
+          <ul class="cards">
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__content">
+                  <div class="card__title">Maximize Revenue</div>
+                  <p class="card__text">
+                    Predict customers behaviors to understand customer needs and
+                    preferences. Predict customers behaviors to understand
+                    customer needs and preferences, personalize marketing
+                    efforts and increase customer acquisition.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__content">
+                  <div class="card__title">Measure Accurately</div>
+                  <p class="card__text">
+                    Enhance trust in data and ensure reliable measurement of
+                    KPIs, such as marketing ROI, CAC, and MRR. Also, empower
+                    data-driven decision-making across all departments, from
+                    marketing to finance.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__content">
+                  <div class="card__title">Holistic Business View</div>
+                  <p class="card__text">
+                    Integrate multiple data sources into the cloud to enable a
+                    comprehensive view of your customers, helping to identify
+                    patterns, trends, and opportunities that may otherwise go
+                    unnoticed.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Clients and Partners -->
+      <section class="testimonies" id="testimonies">
+        <div class="container spacing">
+          <h2 class="section-title">
+            Our <span class="accent">Testimonies</span>
+          </h2>
+          <p class="section-description">
+            Explore glowing recommendations from some of our key partners and
+            clients
+          </p>
+
+          <ul class="cards">
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__image card__image--ctl"></div>
+                <div class="card__content">
+                  <div class="card__title">Juan Guido - CEO @CTL</div>
+                  <p class="card__text">
+                    Squadra Labs was an excellent partner for our latest
+                    project. Their expertise in data integration complemented
+                    our strengths perfectly, and we collaborated closely to
+                    achieve our goals. We highly recommend them to any company
+                    looking for a skilled partner in data integration.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__image card__image--graphext"></div>
+                <div class="card__content">
+                  <div class="card__title">Victoriano - CEO @Graphext</div>
+                  <p class="card__text">
+                    We love what the Squadra Labs team is doing! They have a
+                    deep understanding of how to leverage data to drive business
+                    outcomes. We highly recommend Squadra Labs to anyone looking
+                    to make their company more data-driven.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__image card__image--ns"></div>
+                <div class="card__content">
+                  <div class="card__title">Ruben - CEO @Next Scenario</div>
+                  <p class="card__text">
+                    I highly recommend Squadra Labs for data consulting
+                    services. Their team of experts are responsive,
+                    detail-oriented, and committed to delivering high-quality
+                    work. They took the time to understand my business needs and
+                    provide practical solutions that I could implement right
+                    away.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="footer__redes">
         <li>
           <a href="mailto:info@squadralabs.com">
             <i class="fab fa-at"></i>
@@ -253,21 +295,18 @@
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/company/squadra-labs/" >
+          <a href="https://www.linkedin.com/company/squadra-labs/">
             <i class="fab fa-linkedin"></i>
             LinkedIn
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/squadra.labs/" >
+          <a href="https://www.instagram.com/squadra.labs/">
             <i class="fab fa-instagram"></i>
             instagram
           </a>
         </li>
       </ul>
-    </div>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>
