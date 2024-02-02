@@ -116,9 +116,15 @@ section {
 
   --clr-accent: var(--clr-purple-dark);
 
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
   .hero-content {
     max-width: 40em;
-    padding: 14em 1em 10em 1em;
+    padding: 7em 1em 0 1em;
     color: white;
 
     .hero-title {
@@ -141,6 +147,10 @@ section {
 .section-description {
   width: 80%;
   margin: 0 auto 3em auto;
+}
+
+.benefits {
+  padding: 6em 0;
 }
 
 /* ------------------ Cards ------------------ */
@@ -178,6 +188,7 @@ section {
     margin: 0 1rem;
     margin-top: 1rem;
   }
+
   .card-description {
     margin: 0 1rem;
     margin-bottom: 1rem;
