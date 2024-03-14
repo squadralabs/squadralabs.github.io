@@ -217,9 +217,11 @@ section {
   max-width: 50em;
 }
 .footer ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  padding: 0;
 }
 .footer li {
   text-align: center;
