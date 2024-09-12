@@ -146,6 +146,8 @@ section {
   box-shadow: 0 2em 4em -1.4em var(--clr-shadow);
   transition: transform 400ms ease;
   text-align: left;
+  border-radius: 25px;
+
 }
 .card:hover {
   transform: scale(1.05);
