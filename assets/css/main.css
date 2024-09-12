@@ -154,9 +154,8 @@ section {
 }
 .card img {
   width: 100%;
-  max-height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: auto;
+  object-fit: contain;
 }
 .card .card-title {
   margin: 0 1rem;
