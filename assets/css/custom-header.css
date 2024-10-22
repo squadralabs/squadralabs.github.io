@@ -1,36 +1,31 @@
-/* Estilos solo para la barra de navegación personalizada */
 
+/* ------------------ Navbar ------------------ */
 .navbar {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
+  padding: 1em 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
-
 .navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.navbar-brand img {
-  max-width: 40px;
-  height: auto;
-}
-
-.navbar-menu ul {
-  list-style: none;
-  padding: 0;
+.navbar .navbar-menu ul {
   display: flex;
-  gap: 20px;
-  margin: 0;
 }
-
-.navbar-menu a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
+.navbar a {
+  padding: 0.5em 1em;
+  display: block;
+  color: white;
+  --clr-accent: var(--clr-purple-dark);
 }
-
-.navbar-menu a:hover {
-  text-decoration: underline;
+@media (max-width: 500px) {
+  .navbar .container {
+    flex-direction: column;
+  }
+  .navbar .container .navbar-menu {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 }
