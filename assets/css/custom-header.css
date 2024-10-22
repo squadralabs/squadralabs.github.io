@@ -1,3 +1,7 @@
+/* Aseguramos que no se alteren los estilos base de Minima */
+body, .navbar {
+  font-family: inherit; /* Usar la fuente predeterminada de Minima */
+}
 
 /* ------------------ Navbar ------------------ */
 .navbar {
@@ -5,7 +9,9 @@
   margin: auto;
   left: 0;
   right: 0;
-  position: absolute;
+  position: relative; /* Cambiar position para no sobreponer el contenido */
+  background-color: #333; /* Asegura que la navbar sea visible con fondo */
+  z-index: 10; /* Para que la navbar esté sobre el contenido */
 }
 .navbar .container {
   display: flex;
@@ -14,18 +20,14 @@
 }
 .navbar .navbar-menu ul {
   display: flex;
+  gap: 10px;
 }
 .navbar a {
   padding: 0.5em 1em;
   display: block;
-  color: white;
-  --clr-accent: var(--clr-purple-dark);
+  color: white; /* Asegurar que los links sean visibles */
+  text-decoration: none;
 }
-@media (max-width: 500px) {
-  .navbar .container {
-    flex-direction: column;
-  }
-  .navbar .container .navbar-menu {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
+.navbar a:hover {
+  text-decoration: underline;
 }
