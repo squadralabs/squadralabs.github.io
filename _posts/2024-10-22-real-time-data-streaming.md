@@ -3,7 +3,7 @@ layout: default
 title: "Arquitecturas de Datos Real-Time"
 ---
 
-![Squadra Labs Logo](/assets/img/sq/isologo.webp)
+![Squadra Labs Logo](/assets/img/sq/favicon.ico)
 
 # Arquitecturas de Datos Real-Time
 
