@@ -1,4 +1,4 @@
 title: "Squadra Labs Blog"
 description: "Here you will find some of our written resources about Data and IT. For more, check our Linekdin: https://www.linkedin.com/company/squadra-labs"
 theme: jekyll-theme-cayman  # Puedes elegir otro tema si prefieres
-css: "/assets/css/custom.css"
+css: "/assets/css/custom_css"
