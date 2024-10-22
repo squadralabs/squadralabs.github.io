@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- Incorporamos el CSS personalizado -->
-    <link rel="stylesheet" href="{{ '/assets/css/custom_css.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom_css.css' | absolute_url }}">
     <!-- También mantenemos el CSS original del tema si es necesario -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
