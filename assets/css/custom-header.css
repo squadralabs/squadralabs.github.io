@@ -1,17 +1,12 @@
-/* Aseguramos que no se alteren los estilos base de Minima */
-body, .navbar {
-  font-family: inherit; /* Usar la fuente predeterminada de Minima */
-}
-
 /* ------------------ Navbar ------------------ */
 .navbar {
   padding: 1em 0;
   margin: auto;
   left: 0;
   right: 0;
-  position: relative; /* Cambiar position para no sobreponer el contenido */
-  background-color: #333; /* Asegura que la navbar sea visible con fondo */
-  z-index: 10; /* Para que la navbar esté sobre el contenido */
+  position: relative; /* Deja que el contenido fluya naturalmente */
+  background-color: #333; /* Fondo visible para el navbar */
+  z-index: 10; /* Asegura que la navbar esté sobre el contenido */
 }
 .navbar .container {
   display: flex;
@@ -30,4 +25,10 @@ body, .navbar {
 }
 .navbar a:hover {
   text-decoration: underline;
+}
+
+/* Asegurar que la fuente global y los márgenes de Minima no se vean afectados */
+body, html {
+  font-family: inherit; /* Asegura que se respete la tipografía de Minima */
+  margin: 0; /* Deja que los márgenes globales sean los de Minima */
 }
