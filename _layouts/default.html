@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <!-- Incluyendo estilos -->
+    {{ site.stylesheet }}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
+  </head>
+  <body>
+    <!-- Incluye el header personalizado -->
+    {% include header.html %}
+    
+    <!-- Contenido principal -->
+    <main>
+      {{ content }}
+    </main>
+
+    <!-- Incluye el footer -->
+    {% include footer.html %}
+  </body>
+</html>
