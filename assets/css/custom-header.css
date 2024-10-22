@@ -1,26 +1,20 @@
-/* assets/css/custom-header.css */
+/* Estilos solo para la barra de navegación personalizada */
 
-/* Estilos del navbar */
 .navbar {
   background-color: #333;
   color: #fff;
   padding: 10px 0;
 }
 
-.navbar-brand {
+.navbar .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .navbar-brand img {
   max-width: 40px;
   height: auto;
-}
-
-.navbar-menu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .navbar-menu ul {
@@ -39,16 +33,4 @@
 
 .navbar-menu a:hover {
   text-decoration: underline;
-}
-
-/* Aseguramos que el logo y el menú estén alineados */
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Ajuste de espaciado para el contenido principal */
-main {
-  padding: 20px;
 }
