@@ -1,3 +1,3 @@
 title: "Squadra Labs Blog"
 description: "Here you will find some of our written resources about Data and IT. For more, check our Linekdin: https://www.linkedin.com/company/squadra-labs"
-theme: null  # Puedes elegir otro tema si prefieres
+theme: jekyll-theme-cayman  # Puedes elegir otro tema si prefieres
