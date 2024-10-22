@@ -3,8 +3,6 @@ layout: default
 title: "Arquitecturas de Datos Real-Time"
 ---
 
-![Squadra Labs Logo](/assets/img/sq/favicon.ico)
-
 # Arquitecturas de Datos Real-Time
 
 ¿Real-time o procesamiento batch? Sabemos que la implementación de arquitecturas de datos en tiempo real es una opción cada vez más accesible.  
