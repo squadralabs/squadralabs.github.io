@@ -1,0 +1,108 @@
+/* Custom CSS for Squadra Labs */
+
+/* Reset styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Root variables for Squadra Labs color palette */
+:root {
+  --clr-purple-dark: #201449;
+  --clr-purple: #664fa3;
+  --clr-purple-light: #b565ff;
+  --clr-purple-lighter: #e4dcf0;
+  --clr-pink-light: #cb6ce6;
+  --clr-gray-darkest: #111;
+  --clr-gray-darker: #444;
+  --clr-gray-dark: #696969;
+  --clr-gray: #999999;
+  --clr-gray-light: #cccccc;
+  --clr-gray-lighter: #ececec;
+  --font-bold: 600;
+  --font-semibold: 500;
+  --font-regular: 400;
+  --font-light: 300;
+}
+
+/* Body and text styles */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--font-light);
+  color: var(--clr-gray-darkest);
+  line-height: 1.5;
+  background-color: var(--clr-gray-lighter);
+}
+
+/* Links */
+a {
+  color: var(--clr-purple-dark);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+a:hover,
+a:focus {
+  background-color: var(--clr-purple-light);
+  color: white;
+}
+
+/* Header */
+header {
+  background-color: var(--clr-purple-dark);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+header a {
+  color: var(--clr-purple-light);
+}
+
+/* Main content */
+main {
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 960px;
+  margin: 2rem auto;
+}
+
+/* Footer */
+footer {
+  background-color: var(--clr-purple-dark);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+
+/* Buttons */
+.btn {
+  background-color: var(--clr-purple-light);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: var(--clr-purple-dark);
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+  body {
+    font-size: 90%;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
