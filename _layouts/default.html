@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     
-    <!-- Archivo CSS personalizado para el header -->
-    <link rel="stylesheet" href="{{ '/assets/css/custom-header.css' | absolute_url }}">
+    <!-- Incluye los estilos de Minima -->
+    {{ site.stylesheet }}
+
+    <!-- Agregar el nuevo CSS para el menú -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom-navbar.css' | relative_url }}">
   </head>
   <body>
-    <!-- Incluye el header personalizado -->
+    <!-- Aquí se incluye el nuevo header personalizado -->
     {% include header.html %}
     
     <!-- Contenido principal -->
@@ -17,7 +20,7 @@
       {{ content }}
     </main>
 
-    <!-- Incluye el footer -->
+    <!-- Footer -->
     {% include footer.html %}
   </body>
 </html>
