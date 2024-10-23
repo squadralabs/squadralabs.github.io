@@ -33,7 +33,7 @@ En resumen, esto depende de la frecuencia del consumo de los datos. No es necesa
 **Es importante destacar que el desarrollo de herramientas y plataformas modernas ha facilitado enormemente la implementación de arquitecturas en tiempo real. Servicios como Kafka, Flink y soluciones cloud en AWS o Google Cloud han reducido las barreras de entrada. Por ejemplo, al integrar Apache Flink con Kafka y PostgreSQL usando Docker Compose, se puede crear un flujo continuo de procesamiento de datos, filtrando y almacenando información de manera eficiente. Este tipo de configuración simplifica la adopción de arquitecturas en streaming, permitiendo a las empresas aprovechar las ventajas sin tener que mantener grandes equipos de infraestructura.**
 **
 
-<img src="{{ '/assets/img/blog/streaming_arquitecture_sq_2.jpg.png' | absolute_url }}" alt="Real Time Arquitecture Diagram" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+<img src="{{ '/assets/img/blog/streaming_arquitecture_sq_2.jpg' | absolute_url }}" alt="Real Time Arquitecture Diagram" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
 
 ## Real-time: cuándo tiene sentido y cuándo no
 
