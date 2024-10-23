@@ -1,12 +1,9 @@
 /* ------------------ Navbar ------------------ */
 .navbar {
-  padding: 0.70em 0 !important; /* Reducir el padding vertical para disminuir la altura */
+  padding: 0.50em 0 !important; /* Reducir el padding vertical para disminuir la altura */
   background-color: #FFFFFF; /* Fondo blanco para el navbar */
   color: black; /* Texto del navbar en negro */
   z-index: 10; /* Asegura que la navbar esté sobre el contenido */
-  margin: 0; 
-  min-height: 50px; /* Agrega un mínimo para controlar su altura */
-
 }
 
 .navbar .container {
@@ -15,7 +12,6 @@
   align-items: center;
   margin: 0; /* Asegúrate de que no haya margen adicional */
   padding: 0; /* Elimina cualquier padding adicional en el contenedor */
-
 }
 
 
@@ -92,3 +88,10 @@ main, section {
   height: auto; /* Mantiene las proporciones correctas */
 }
 
+/* ------------------ Ajustes del Logo en el Navbar ------------------ */
+.navbar-brand img {
+  width: 40px; /* Tamaño del logo */
+  height: auto; /* Mantiene la proporción correcta */
+  margin-top: 0; /* Elimina cualquier margen superior */
+  padding-top: 0; /* Elimina cualquier padding superior */
+}
