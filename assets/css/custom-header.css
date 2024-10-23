@@ -73,3 +73,10 @@ main, section {
   }
 }
 
+/* ------------------ Estilo para la imagen principal ------------------ */
+img.full-width-image {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: 0 auto; /* Centra la imagen si el contenedor no es de ancho completo */
+}
