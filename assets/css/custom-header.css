@@ -4,6 +4,7 @@
   background-color: #FFFFFF; /* Fondo blanco para el navbar */
   color: black; /* Texto del navbar en negro */
   z-index: 10; /* Asegura que la navbar esté sobre el contenido */
+  margin: 0; 
 }
 
 .navbar .container {
