@@ -2,7 +2,7 @@
 layout: default
 title: "Arquitecturas de Datos Real-Time"
 ---
-<img src="{{ '/assets/img/blog/event_driven_image.jpg' | absolute_url }}" alt="Event Driven Data Processing" style="width: 100%; height: auto; display: block;">
+<img src="{{ '/assets/img/blog/real_time_descriptive_image-removebg-preview.png' | absolute_url }}" alt="Real Time Data Processing" style="width: 100%; height: auto; display: block;">
 
 # Arquitecturas de Datos Real-Time
 
@@ -73,4 +73,5 @@ En los casos anteriormente mencionados un sistema de batch no sería suficiente 
 El avance de las herramientas y plataformas está reduciendo el umbral de entrada, lo que hace que el procesamiento en tiempo real sea una opción cada vez más accesible para muchas empresas. Lógicamente, es necesario evaluar cada caso en función de la necesidad y el valor que aportaría contar con los datos de manera inmediata. Sin embargo, si la tendencia continúa y existe la posibilidad de acceder a datos en tiempo real con un costo y complejidad comparables al procesamiento batch, la pregunta es: ¿por qué no hacerlo?
 
 
-<img src="{{ '/assets/img/blog/real_time_descriptive_image.png' | absolute_url }}" alt="Real Time Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+<img src="{{ '/assets/img/blog/event_driven_image.jpg' | absolute_url }}" alt="Event Driven Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+
