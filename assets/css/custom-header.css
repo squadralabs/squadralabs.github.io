@@ -1,6 +1,6 @@
 /* ------------------ Navbar ------------------ */
 .navbar {
-  padding: 0.60em 0; /* Reducir el padding vertical para disminuir la altura */
+  padding: 0.70em 0 !important; /* Reducir el padding vertical para disminuir la altura */
   background-color: #FFFFFF; /* Fondo blanco para el navbar */
   color: black; /* Texto del navbar en negro */
   z-index: 10; /* Asegura que la navbar esté sobre el contenido */
