@@ -1,8 +1,8 @@
 /* ------------------ Navbar ------------------ */
 .navbar {
   padding: 1em 0;
-  background-color: #FFFFFF; /* Fondo oscuro para el navbar */
-  color: black; /* Texto del navbar en blanco */
+  background-color: #FFFFFF; /* Fondo blanco para el navbar */
+  color: black; /* Texto del navbar en negro */
   z-index: 10; /* Asegura que la navbar esté sobre el contenido */
 }
 
@@ -29,7 +29,7 @@
 .navbar a {
   padding: 0.5em 1em;
   display: block;
-  color: white; /* Asegura que los links sean visibles */
+  color: black; /* Asegura que los links sean visibles */
   text-decoration: none;
 }
 
