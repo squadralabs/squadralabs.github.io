@@ -2,11 +2,11 @@
 layout: default
 title: "Arquitecturas de Datos Real-Time"
 ---
-<img src="{{ '/assets/img/blog/real_time_descriptive_image.png' | absolute_url }}" alt="Real Time Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+<img src="{{ '/assets/img/blog/event_driven_image.jpg' | absolute_url }}" alt="Event Driven Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
 
 # Arquitecturas de Datos Real-Time
 
-¿Real-time o procesamiento batch? Sabemos que la implementación de arquitecturas de datos en tiempo real es una opción cada vez más accesible.  
+¿Real-time o procesamiento batch? Sabemos que la implementación de arquitecturas de **datos en tiempo real es una opción cada vez más accesible**.  
 En este artículo, detallamos cuáles son las herramientas para bajar el costo y la complejidad de la implementación de real-time y qué empresas necesitan implementarlo sí o sí. Si existe la opción de acceder a datos en tiempo real, y su costo y complejidad son similares al procesamiento batch, ¿por qué no hacerlo?
 
 ## Real-time: qué hay que tener en cuenta antes de empezar a considerar su integración
@@ -72,4 +72,5 @@ En los casos anteriormente mencionados un sistema de batch no sería suficiente 
 ## Conclusión ¿El Futuro es Real-Time?
 El avance de las herramientas y plataformas está reduciendo el umbral de entrada, lo que hace que el procesamiento en tiempo real sea una opción cada vez más accesible para muchas empresas. Lógicamente, es necesario evaluar cada caso en función de la necesidad y el valor que aportaría contar con los datos de manera inmediata. Sin embargo, si la tendencia continúa y existe la posibilidad de acceder a datos en tiempo real con un costo y complejidad comparables al procesamiento batch, la pregunta es: ¿por qué no hacerlo?
 
-<img src="{{ '/assets/img/blog/event_driven_image.jpg' | absolute_url }}" alt="Event Driven Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+
+<img src="{{ '/assets/img/blog/real_time_descriptive_image.png' | absolute_url }}" alt="Real Time Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
