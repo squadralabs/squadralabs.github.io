@@ -41,3 +41,26 @@ h1, h2, h3, p {
 
 /* ------------------ Otros estilos personalizados ------------------ */
 /* Agregar otras personalizaciones si es necesario */
+
+/* Añadir márgenes laterales al contenido principal */
+main, section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Márgenes más grandes para pantallas anchas (tabletas y computadoras) */
+@media (min-width: 768px) {
+  main, section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+/* Márgenes más pequeños para pantallas móviles */
+@media (max-width: 767px) {
+  main, section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
