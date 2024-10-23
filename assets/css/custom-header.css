@@ -12,6 +12,7 @@
   align-items: center;
 }
 
+
 /* Eliminar bullet points de la lista del menú de navegación */
 .navbar .navbar-menu ul {
   list-style-type: none; /* Elimina el bullet point */
@@ -74,9 +75,21 @@ main, section {
 }
 
 /* ------------------ Estilo para la imagen principal ------------------ */
-img.full-width-image {
-  width: 100%; /* Ocupa todo el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+/* Estilo para la imagen principal */
+.full-width-image {
+  width: 100%;  /* Ocupa el 100% del ancho del contenedor */
+  max-width: 100vw;  /* El ancho máximo es el 100% del viewport */
+  height: auto;  /* Mantiene las proporciones */
   display: block;
-  margin: 0 auto; /* Centra la imagen si el contenedor no es de ancho completo */
+  margin: 0 auto;  /* Centra la imagen */
 }
+
+/* Ajuste específico para pantallas pequeñas */
+@media (max-width: 767px) {
+  .full-width-image {
+    width: 100%; /* Mantiene la imagen a todo el ancho del contenedor en móviles */
+    max-width: none; /* Elimina cualquier restricción de ancho */
+    height: auto; /* Mantiene la proporción */
+  }
+}
+
