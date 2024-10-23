@@ -12,9 +12,18 @@
   align-items: center;
 }
 
+/* Eliminar bullet points de la lista del menú de navegación */
 .navbar .navbar-menu ul {
+  list-style-type: none; /* Elimina el bullet point */
+  padding: 0; /* Elimina cualquier padding adicional */
+  margin: 0; /* Elimina el margen que puede causar desalineación */
   display: flex;
   gap: 20px; /* Espaciado entre los ítems del menú */
+}
+
+/* Asegurar que los elementos <li> de la lista tampoco tengan viñetas */
+.navbar .navbar-menu ul li {
+  list-style-type: none; /* También elimina las viñetas en los elementos <li> */
 }
 
 .navbar a {
