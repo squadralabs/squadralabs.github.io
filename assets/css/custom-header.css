@@ -11,6 +11,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0; /* Asegúrate de que no haya margen adicional */
+  padding: 0; /* Elimina cualquier padding adicional en el contenedor */
 }
 
 
