@@ -5,6 +5,8 @@
   color: black; /* Texto del navbar en negro */
   z-index: 10; /* Asegura que la navbar esté sobre el contenido */
   margin: 0; 
+  border: 1px solid red; /* Borde temporal para ver la estructura */
+
 }
 
 .navbar .container {
@@ -13,6 +15,8 @@
   align-items: center;
   margin: 0; /* Asegúrate de que no haya margen adicional */
   padding: 0; /* Elimina cualquier padding adicional en el contenedor */
+  border: 1px solid green; /* Borde temporal para ver la estructura */
+
 }
 
 
