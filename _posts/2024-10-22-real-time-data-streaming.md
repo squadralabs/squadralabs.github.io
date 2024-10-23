@@ -2,7 +2,7 @@
 layout: default
 title: "Arquitecturas de Datos Real-Time"
 ---
-<img src="{{ '/assets/img/blog/real_time_descriptive_image.png' | absolute_url }}" alt="Real Time Data Processing" class="full-width-image">
+<img src="{{ '/assets/img/blog/data_points_technology.jpg' | absolute_url }}" alt="Real Time Data Processing" class="full-width-image">
 
 # Arquitecturas de Datos Real-Time
 
