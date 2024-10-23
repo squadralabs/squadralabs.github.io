@@ -56,8 +56,8 @@ h1, h2, h3, p {
 
 /* Añadir márgenes laterales al contenido principal */
 main, section {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /* Márgenes más grandes para pantallas anchas (tabletas y computadoras) */
@@ -86,7 +86,10 @@ main, section {
   margin-left: -50vw; /* Centra la imagen de forma negativa */
   margin-right: -50vw; /* Evita márgenes */
   height: auto; /* Mantiene las proporciones correctas */
+  margin-top: 0; /* Elimina cualquier margen superior */
+  padding-top: 0; /* Elimina cualquier padding superior */
 }
+
 
 /* ------------------ Ajustes del Logo en el Navbar ------------------ */
 .navbar-brand img {
