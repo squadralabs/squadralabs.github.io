@@ -2,7 +2,7 @@
 layout: default
 title: "Arquitecturas de Datos Real-Time"
 ---
-<img src="{{ '/assets/img/blog/event_driven_image.jpg' | absolute_url }}" alt="Event Driven Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+<img src="{{ '/assets/img/blog/event_driven_image.jpg' | absolute_url }}" alt="Event Driven Data Processing" style="width: 100%; height: auto; display: block;">
 
 # Arquitecturas de Datos Real-Time
 
