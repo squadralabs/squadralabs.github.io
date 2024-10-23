@@ -75,21 +75,14 @@ main, section {
 }
 
 /* ------------------ Estilo para la imagen principal ------------------ */
-/* Estilo para la imagen principal */
+/* Estilo para que la imagen ocupe todo el ancho de la pantalla */
 .full-width-image {
-  width: 100%;  /* Ocupa el 100% del ancho del contenedor */
-  max-width: 100vw;  /* El ancho máximo es el 100% del viewport */
-  height: auto;  /* Mantiene las proporciones */
-  display: block;
-  margin: 0 auto;  /* Centra la imagen */
-}
-
-/* Ajuste específico para pantallas pequeñas */
-@media (max-width: 767px) {
-  .full-width-image {
-    width: 100%; /* Mantiene la imagen a todo el ancho del contenedor en móviles */
-    max-width: none; /* Elimina cualquier restricción de ancho */
-    height: auto; /* Mantiene la proporción */
-  }
+  width: 100vw; /* Ocupa todo el ancho del viewport */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw; /* Centra la imagen de forma negativa */
+  margin-right: -50vw; /* Evita márgenes */
+  height: auto; /* Mantiene las proporciones correctas */
 }
 
