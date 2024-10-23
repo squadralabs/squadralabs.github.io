@@ -15,7 +15,7 @@ La creación de sistemas y arquitecturas de datos en tiempo real –mejor conoci
 
 A lo largo de este artículo, discutiremos si vale la pena invertir en real-time, cuáles son sus beneficios, cuándo este sistema tiene sentido y si es realmente el futuro del sector.
 
-<img src="{{ '/assets/img/blog/real_time_diagram.png' | absolute_url }}" alt="Real Time Arquitecture Diagram" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+<img src="{{ '/assets/img/blog/real_time_data_streaming_architecture_example.png' | absolute_url }}" alt="Real Time Arquitecture Example" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
 
 ### Complejidad y costos
 
@@ -33,7 +33,7 @@ En resumen, esto depende de la frecuencia del consumo de los datos. No es necesa
 **Es importante destacar que el desarrollo de herramientas y plataformas modernas ha facilitado enormemente la implementación de arquitecturas en tiempo real. Servicios como Kafka, Flink y soluciones cloud en AWS o Google Cloud han reducido las barreras de entrada. Por ejemplo, al integrar Apache Flink con Kafka y PostgreSQL usando Docker Compose, se puede crear un flujo continuo de procesamiento de datos, filtrando y almacenando información de manera eficiente. Este tipo de configuración simplifica la adopción de arquitecturas en streaming, permitiendo a las empresas aprovechar las ventajas sin tener que mantener grandes equipos de infraestructura.**
 **
 
-<img src="{{ '/assets/img/blog/real_time_data_streaming_architecture_example.png' | absolute_url }}" alt="Real Time Arquitecture Example" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+<img src="{{ '/assets/img/blog/real_time_diagram.png' | absolute_url }}" alt="Real Time Arquitecture Diagram" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
 
 ## Real-time: cuándo tiene sentido y cuándo no
 
@@ -69,9 +69,9 @@ En los casos anteriormente mencionados un sistema de batch no sería suficiente 
 
 **Otros ejemplos son las empresas de telecomunicaciones o de manufactura, que utilizan datos que salen de dispositivos IoT. Estas compañías necesitan datos inmediatos sobre su rendimiento e identificar problemas rápidamente con el objetivo de minimizar los tiempos de inactividad y optimizar la producción.**
 
+<img src="{{ '/assets/img/blog/event_driven_image.jpg' | absolute_url }}" alt="Event Driven Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+
 ## Conclusión ¿El Futuro es Real-Time?
 El avance de las herramientas y plataformas está reduciendo el umbral de entrada, lo que hace que el procesamiento en tiempo real sea una opción cada vez más accesible para muchas empresas. Lógicamente, es necesario evaluar cada caso en función de la necesidad y el valor que aportaría contar con los datos de manera inmediata. Sin embargo, si la tendencia continúa y existe la posibilidad de acceder a datos en tiempo real con un costo y complejidad comparables al procesamiento batch, la pregunta es: ¿por qué no hacerlo?
 
-
-<img src="{{ '/assets/img/blog/event_driven_image.jpg' | absolute_url }}" alt="Event Driven Data Processing" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
 
