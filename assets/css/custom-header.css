@@ -1,34 +1,43 @@
 /* ------------------ Navbar ------------------ */
 .navbar {
   padding: 1em 0;
-  margin: auto;
-  left: 0;
-  right: 0;
-  position: relative; /* Deja que el contenido fluya naturalmente */
-  background-color: #333; /* Fondo visible para el navbar */
+  background-color: #333; /* Fondo oscuro para el navbar */
+  color: white; /* Texto del navbar en blanco */
   z-index: 10; /* Asegura que la navbar esté sobre el contenido */
 }
+
 .navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .navbar .navbar-menu ul {
   display: flex;
-  gap: 10px;
+  gap: 20px; /* Espaciado entre los ítems del menú */
 }
+
 .navbar a {
   padding: 0.5em 1em;
   display: block;
-  color: white; /* Asegurar que los links sean visibles */
+  color: white; /* Asegura que los links sean visibles */
   text-decoration: none;
 }
+
 .navbar a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Efecto hover para los links */
 }
 
-/* Asegurar que la fuente global y los márgenes de Minima no se vean afectados */
-body, html {
-  font-family: inherit; /* Asegura que se respete la tipografía de Minima */
-  margin: 0; /* Deja que los márgenes globales sean los de Minima */
+/* ------------------ Tipografía global ------------------ */
+/* Aplicar la fuente Poppins en todo el sitio */
+body {
+  font-family: 'Poppins', sans-serif;
 }
+
+/* Asegurar que los encabezados y párrafos usen Poppins */
+h1, h2, h3, p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------ Otros estilos personalizados ------------------ */
+/* Agregar otras personalizaciones si es necesario */
