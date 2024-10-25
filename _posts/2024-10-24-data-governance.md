@@ -6,7 +6,7 @@ title: "Data Governance"
 
 # Gobernanza de Datos: La Columna Vertebral de una Organización Basada en Datos
 
-## La gobernanza de datos se ha vuelto indispensable para las organizaciones que buscan aprovechar al máximo sus activos de datos. Al establecer un marco sólido de gobernanza de datos, las empresas aseguran que sus datos no solo estén gestionados correctamente, sino que también se conviertan en un activo que impulsa el crecimiento y la innovación. Exploremos los elementos clave de la gobernanza de datos, organizados según su impacto en la estrategia de datos de una organización.
+La gobernanza de datos se ha vuelto indispensable para las organizaciones que buscan aprovechar al máximo sus activos de datos. Al establecer un marco sólido de gobernanza de datos, las empresas aseguran que sus datos no solo estén gestionados correctamente, sino que también se conviertan en un activo que impulsa el crecimiento y la innovación. Exploremos los elementos clave de la gobernanza de datos, organizados según su impacto en la estrategia de datos de una organización.
 
 ### 1. Gestión de la Calidad de los Datos
 
