@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Data Governance"
+image: "/assets/img/blog/data_governance_framework.png"
 ---
 <img src="{{ 'assets/img/blog/data_governance.jpeg' | absolute_url }}" alt="Data Governance" class="full-width-image">
 
