@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Arquitecturas de Datos Real-Time"
+image: "/assets/img/blog/banner_real_time.jpg"
 ---
 <img src="{{ '/assets/img/blog/banner_real_time.jpg' | absolute_url }}" alt="Real Time Data Processing" class="full-width-image">
 
