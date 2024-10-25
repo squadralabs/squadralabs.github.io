@@ -16,16 +16,16 @@ title: "Blog de Squadra Labs"
     {% for post in site.posts %}
       <div class="post-card">
         <a href="{{ post.url }}">
+          <div class="post-content">
+            <h2>{{ post.title }}</h2>
+            <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          </div>
           {% if post.image %}
             <img src="{{ post.image }}" alt="{{ post.title }}">
           {% else %}
             <img src="/assets/img/blog/default-image.jpg" alt="Default image">
           {% endif %}
-          <div class="post-content">
-            <h2>{{ post.title }}</h2>
-            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-            <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-          </div>
+          <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
         </a>
       </div>
     {% endfor %}
