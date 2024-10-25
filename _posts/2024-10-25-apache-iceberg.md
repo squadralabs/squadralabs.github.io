@@ -5,6 +5,7 @@ image: "/assets/img/blog/iceberg.png"
 ---
 <img src="{{ '/assets/img/blog/iceberg.png' | absolute_url }}" alt="Apache Iceberg" class="full-width-image">
 
+# Apache Iceberg - Gestión de datos en empresas modernas
 
 La gestión de datos en las empresas modernas ha evolucionado considerablemente en las últimas dos décadas, pasando de simples bases de datos a sistemas avanzados diseñados para manejar volúmenes de información sin precedentes. Este cambio ha sido impulsado por el crecimiento exponencial de datos, alimentado por dispositivos móviles, el Internet de las Cosas (IoT) y diversas actividades en línea. Con este aumento en el volumen de datos, los métodos tradicionales de gestión se encontraron con limitaciones, lo que llevó a la necesidad de soluciones innovadoras como Apache Iceberg, un formato de tablas potente para data lakes.
 
