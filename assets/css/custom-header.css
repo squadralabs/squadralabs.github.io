@@ -98,3 +98,56 @@ main, section {
   margin-top: 0; /* Elimina cualquier margen superior */
   padding-top: 0; /* Elimina cualquier padding superior */
 }
+
+
+/* Estilos para el contenedor de los posts */
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+/* Estilos para las tarjetas de los posts */
+.post-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para la imagen del post */
+.post-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Estilos para la información del post */
+.post-info {
+  padding: 1rem;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  color: var(--clr-purple-dark);
+  margin-bottom: 0.5rem;
+}
+
+.post-description {
+  font-size: 1rem;
+  color: var(--clr-gray-dark);
+  margin-bottom: 1rem;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: var(--clr-gray);
+}
