@@ -7,7 +7,7 @@ image: "/assets/img/blog/concierto.png"
 
 # StubHub International - Caso de éxito
 
-**StubHub International**, la plataforma global dedicada a la compra y venta de entradas para eventos, desde espectáculos como **@Coldplay** hasta partidos de **@Premier League**, confió en nosotros para impulsar su infraestructura y optimizar sus operaciones diarias. Queremos agradecer al equipo de StubHub International por el profesionalismo desde el día uno.
+**StubHub International**, la plataforma global dedicada a la compra y venta de entradas para eventos, desde espectáculos como **Coldplay** hasta partidos de **Premier League**, confió en nosotros para impulsar su infraestructura y optimizar sus operaciones diarias. Queremos agradecer al equipo de StubHub International por el profesionalismo desde el día uno.
 
 En este artículo, te contamos qué procesos mejoramos y qué proyectos de innovación llevamos a cabo para que la empresa pueda seguir creciendo.
 
