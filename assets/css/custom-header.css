@@ -131,13 +131,13 @@ main, section {
 }
 
 .post-content h2 a {
-  text-decoration: none; /* Eliminar subrayado por defecto */
-  color: #201449; /* Color del título */
+  text-decoration: none !important; /* Eliminar subrayado por defecto */
+  color: #201449 !important; /* Color del título */
 }
 
 .post-content h2 a:hover {
-  text-decoration: underline; /* Subrayado al pasar el cursor */
-  color: #cb6ce6; /* Cambiar color al pasar el cursor */
+  text-decoration: underline !important; /* Subrayado al pasar el cursor */
+  color: #cb6ce6 !important; /* Cambiar color al pasar el cursor */
 }
 
 .post-content p {
