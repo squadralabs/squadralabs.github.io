@@ -3,7 +3,7 @@ layout: default
 title: "Data Governance"
 image: "/assets/img/blog/data_governance_framework.png"
 ---
-<img src="{{ 'assets/img/blog/grafico_data_governance_framework.jpg' | absolute_url }}" alt="Data Governance" class="full-width-image">
+<img src="{{ 'assets/img/blog/gobernanza_de_datos.jpg' | absolute_url }}" alt="Data Governance" class="full-width-image">
 
 # Gobernanza de datos: La columna vertebral de una organización basada en datos
 
