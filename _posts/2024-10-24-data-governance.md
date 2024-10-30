@@ -3,7 +3,7 @@ layout: default
 title: "Data Governance"
 image: "/assets/img/blog/data_governance_framework.png"
 ---
-<img src="{{ 'assets/img/blog/data_governance.jpeg' | absolute_url }}" alt="Data Governance" class="full-width-image">
+<img src="{{ 'assets/img/blog/grafico_data_governance_framework.jpg' | absolute_url }}" alt="Data Governance" class="full-width-image">
 
 # Gobernanza de datos: La columna vertebral de una organización basada en datos
 
@@ -44,5 +44,5 @@ Al incorporar una mentalidad basada en datos en la cultura de la organización, 
 ### Conclusión
 La gobernanza de datos es la columna vertebral de una organización exitosa basada en datos. Desde garantizar la calidad de los datos hasta crear una fuente única de verdad, los marcos de gobernanza protegen, aseguran y optimizan los activos de datos. A medida que las organizaciones dependen cada vez más de la IA y el aprendizaje automático, la importancia de gobernar los datos de manera efectiva no puede ser subestimada. Al integrar la gobernanza de datos en el núcleo de la estrategia empresarial, las empresas se posicionan para el éxito a largo plazo en un mundo centrado en los datos.
 
-<img src="{{ '/assets/img/blog/data_governance_framework.png' | absolute_url }}" alt="Data Governance Framework.png" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+<img src="{{ '/assets/img/blog/grafico_data_governance_framework.jpg' | absolute_url }}" alt="Data Governance Framework.png" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
 
