@@ -3,7 +3,7 @@ layout: default
 title: "StubHub International - Caso de éxito"
 image: "/assets/img/blog/concierto.png"
 ---
-<img src="{{ '/assets/img/blog/stubhub_cliente_post' | absolute_url }}" alt="StubHub & Squadra Labs" class="full-width-image">
+<img src="{{ '/assets/img/blog/stubhub_cliente_post.jpg' | absolute_url }}" alt="StubHub & Squadra Labs" class="full-width-image">
 
 # StubHub International - Caso de éxito
 
