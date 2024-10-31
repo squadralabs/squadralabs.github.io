@@ -3,7 +3,7 @@ layout: default
 title: "StubHub International - Caso de éxito"
 image: "/assets/img/blog/concierto.png"
 ---
-<img src="{{ '/assets/img/blog/concierto.png' | absolute_url }}" alt="Apache Iceberg" class="full-width-image">
+<img src="{{ '/assets/img/blog/stubhub_cliente_post' | absolute_url }}" alt="StubHub & Squadra Labs" class="full-width-image">
 
 # StubHub International - Caso de éxito
 
@@ -12,6 +12,7 @@ image: "/assets/img/blog/concierto.png"
 En este artículo, te contamos qué procesos mejoramos y qué proyectos de innovación llevamos a cabo para que la empresa pueda seguir creciendo.
 
 ---
+<img src="{{ '/assets/img/blog/concierto.png' | absolute_url }}" alt="Concierto" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
 
 ## Artículo: Caso de éxito - Cómo colaboramos con StubHub International
 
