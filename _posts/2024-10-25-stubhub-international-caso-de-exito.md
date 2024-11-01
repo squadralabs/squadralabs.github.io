@@ -5,7 +5,7 @@ image: "/assets/img/blog/concierto.png"
 ---
 <img src="{{ '/assets/img/blog/stubhub_cliente_post.jpg' | absolute_url }}" alt="StubHub & Squadra Labs" class="full-width-image">
 
-# StubHub International - Caso de éxito
+# Caso de éxito: así colaboramos con StubHub International
 
 **StubHub International**, la plataforma global dedicada a la compra y venta de entradas para eventos, desde espectáculos como **Coldplay** hasta partidos de **Premier League**, confió en nosotros para impulsar su infraestructura y optimizar sus operaciones diarias. Queremos agradecer al equipo de StubHub International por el profesionalismo desde el día uno.
 
