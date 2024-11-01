@@ -12,7 +12,7 @@ image: "/assets/img/blog/concert_1.jpg"
 En este artículo, te contamos qué procesos mejoramos y qué proyectos de innovación llevamos a cabo para que la empresa pueda seguir creciendo.
 
 ---
-<img src="{{ '/assets/img/blog/concierto_1.jpg' | absolute_url }}" alt="Concierto" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+<img src="{{ '/assets/img/blog/concert_1.jpg' | absolute_url }}" alt="Concierto" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
 
 ## Artículo: Caso de éxito - Cómo colaboramos con StubHub International
 
