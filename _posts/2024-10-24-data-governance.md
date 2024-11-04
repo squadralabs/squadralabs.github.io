@@ -5,8 +5,7 @@ image: "/assets/img/blog/data_governance_framework.png"
 ---
 <img src="{{ 'assets/img/blog/gobernanza_de_datos.jpg' | absolute_url }}" alt="Data Governance" class="full-width-image">
 
-# Gobernanza de datos: La columna vertebral de una organización basada en datos
-
+# Gobernanza de datos: La columna vertebral de una organización data-driven
 La gobernanza de datos se ha vuelto indispensable para las organizaciones que buscan aprovechar al máximo sus activos de datos. Al establecer un marco sólido de gobernanza de datos, las empresas aseguran que sus datos no solo estén gestionados correctamente, sino que también se conviertan en un activo que impulsa el crecimiento y la innovación. Exploremos los elementos clave de la gobernanza de datos, organizados según su impacto en la estrategia de datos de una organización.
 
 ### 1. Calidad de los datos
