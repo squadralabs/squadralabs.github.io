@@ -27,6 +27,8 @@ En su núcleo, Iceberg está diseñado para proporcionar varios beneficios clave
 
 - **Rendimiento y Mantenimiento**: Uno de los mayores puntos débiles de los sistemas tradicionales es la ineficiencia en la actualización de pequeños conjuntos de datos y la dificultad para mantener el rendimiento a largo plazo. Iceberg resuelve esto al habilitar consultas rápidas a través de su enfoque basado en metadata. En lugar de escanear particiones o directorios completos de datos, Iceberg organiza los datos a través de snapshots y manifiestos para identificar solo los archivos necesarios para una consulta, mejorando significativamente el rendimiento.
 
+<img src="{{ '/assets/img/blog/apache_iceberg_diagram.jpg' | absolute_url }}" alt="Iceberg Diagram" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+
 ## La evolución del Data Lakehouse
 
 El concepto de un data lakehouse combina la escalabilidad y asequibilidad de los data lakes con la estructura y el rendimiento de los data warehouses. Iceberg juega un papel crucial en hacer que esta arquitectura sea una realidad al proporcionar el "pegamento" que une estos componentes. En una configuración típica de data lakehouse, los datos crudos se almacenan en un data lake (utilizando almacenamiento en la nube como Amazon S3), pero se pueden consultar y procesar con la velocidad y eficiencia típicas de un data warehouse.
@@ -55,6 +57,6 @@ A medida que las organizaciones continúan generando volúmenes de datos cada ve
 
 Con el auge de la inteligencia artificial y el machine learning, tener datos limpios y bien gestionados es más importante que nunca. Por lo tanto, los ingenieros de datos juegan un papel crítico en habilitar esta transformación adoptando tecnologías como Iceberg para gestionar la creciente complejidad de los data lakes.
 
-En resumen, Apache Iceberg es mucho más que un formato de tablas; es una solución a los desafíos más grandes que los ingenieros de datos enfrentan hoy en día. Su capacidad para combinar lo mejor de los data lakes y data warehouses, sin las desventajas de ninguno de los dos, lo convierte en una herramienta esencial para cualquier organización que busque aprovechar al máximo su potencial de datos.
+En resumen, Apache Iceberg es mucho más que un formato de tablas; es una solución a los desafíos más grandes que los ingenieros de datos enfrentan hoy en día. Su capacidad para combinar lo mejor de los data lakes y data warehouses lo convierte en una herramienta esencial para cualquier organización que busque aprovechar al máximo su potencial de datos.
 
-<img src="{{ '/assets/img/blog/apache_iceberg_diagram.jpg' | absolute_url }}" alt="Iceberg Diagram" style="display: block; margin: 0 auto; max-width: 600px; width: 100%; height: auto;">
+
