@@ -147,7 +147,6 @@ section {
   transition: transform 400ms ease;
   text-align: left;
   border-radius: 25px;
-
 }
 .card:hover {
   transform: scale(1.05);
@@ -155,7 +154,8 @@ section {
 .card img {
   width: 100%;
   height: auto;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .card .card-title {
   margin: 0 1rem;
