@@ -1,32 +1,25 @@
 from PIL import Image
 import os
 
+# Configuración
+INPUT_FOLDER = "tools/hd"  # Carpeta de entrada con imágenes PNG
+OUTPUT_FOLDER = "tools/webp"  # Carpeta de salida para las imágenes WEBP
+FIXED_SIZE = (600, 600)  # Tamaño fijo (ancho, alto)
 
-def resize_and_convert_to_webp(folder="."):
-    # Obtén la lista de archivos en el directorio actual
-    files = os.listdir(folder)
+# Crear la carpeta de salida si no existe
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-    # Itera sobre los archivos en el directorio actual
-    for file in files:
-        if file.endswith(".png"):
-            # Construye las rutas de entrada y salida
-            input_path = os.path.join(folder, file)
-            output_path = os.path.join(folder, os.path.splitext(file)[0] + ".webp")
+# Procesar todas las imágenes en la carpeta
+for filename in os.listdir(INPUT_FOLDER):
+    if filename.lower().endswith(".png"):
+        input_path = os.path.join(INPUT_FOLDER, filename)
+        output_path = os.path.join(OUTPUT_FOLDER, f"{os.path.splitext(filename)[0]}.webp")
 
-            # Abre la imagen
-            img = Image.open(input_path)
+        # Abrir, redimensionar y guardar en formato WEBP
+        with Image.open(input_path) as img:
+            img = img.resize(FIXED_SIZE, Image.Resampling.LANCZOS)
+            img.save(output_path, "WEBP", quality=100)  # Ajusta la calidad según necesidad
 
-            # Redimensiona la imagen a 300x300
-            # resized_img = img.resize((300, 300))
+        print(f"Convertido: {filename} → {output_path}")
 
-            # Guarda la imagen redimensionada en formato WebP en el mismo directorio
-            img.save(output_path, "WEBP")
-
-            print(f"{file} procesado con éxito.")
-
-
-# Llama a la función para redimensionar y convertir a WebP en el directorio actual
-# resize_and_convert_to_webp("tools/")
-# resize_and_convert_to_webp("sq/")
-# resize_and_convert_to_webp("services/")
-resize_and_convert_to_webp("hero/")
+print("Conversión completada.")
