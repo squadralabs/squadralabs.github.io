@@ -29,7 +29,8 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: var(--font-light);
   color: var(--clr-gray-darkest);
   line-height: 1.5;
