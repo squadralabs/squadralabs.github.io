@@ -194,7 +194,7 @@ section {
   border-radius: 15px;
   width: 180px;
   margin: 0 8px;
-  box-shadow: 0 0.5em 1em 0 var(--clr-gray-light);
+  box-shadow: 0 0.5em 1em -0.35em var(--clr-gray-light);
 }
 .tools:before, .tools:after {
   position: absolute;

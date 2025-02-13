@@ -237,7 +237,8 @@ $imgAnimation: 22s;
     border-radius: 15px;
     width: $imgWidth;
     margin: 0 $imgMargin;
-    box-shadow: 0 0.5em 1em 0 var(--clr-gray-light);
+    box-shadow: 0 0.5em 1em -0.35em var(--clr-gray-light);
+    
   }
 
   // This only adds gradient-shadow above the tool slider
