@@ -42,6 +42,7 @@ body {
 }
 
 a {
+  border-radius: 10px;
   text-decoration: none;
   transition: 400ms linear;
   &.link-not-allowed {
@@ -232,6 +233,7 @@ $imgAnimation: 22s;
   }
 
   img {
+    border-radius: 15px;
     width: $imgWidth;
     margin: 0 $imgMargin;
     box-shadow: 0 0.5em 1em 0 var(--clr-gray-light);
@@ -316,6 +318,7 @@ $imgAnimation: 22s;
   padding: 1em 3em;
   border: 1px solid #fff;
   color: #fff;
+  border-radius: 15px;
 }
 
 /*  Text  */

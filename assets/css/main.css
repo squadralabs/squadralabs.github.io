@@ -36,6 +36,7 @@ body {
 }
 
 a {
+  border-radius: 10px;
   text-decoration: none;
   transition: 400ms linear;
 }
@@ -189,6 +190,7 @@ section {
   animation: slide 22s linear infinite;
 }
 .tools img {
+  border-radius: 15px;
   width: 180px;
   margin: 0 8px;
   box-shadow: 0 0.5em 1em 0 var(--clr-gray-light);
@@ -263,6 +265,7 @@ section {
   padding: 1em 3em;
   border: 1px solid #fff;
   color: #fff;
+  border-radius: 15px;
 }
 
 /*  Text  */
