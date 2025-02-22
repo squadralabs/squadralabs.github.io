@@ -1,4 +1,15 @@
 /* ------------------ Navbar ------------------ */
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 80em;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
 .navbar {
   padding: 0.50em 0 !important; /* Reducir el padding vertical para disminuir la altura */
   background-color: #FFFFFF; /* Fondo blanco para el navbar */
@@ -37,7 +48,7 @@
 }
 
 .navbar a:hover {
-  text-decoration: underline; /* Efecto hover para los links */
+  text-decoration: none; /* Efecto hover para los links */
 }
 
 /* ------------------ Tipografía global ------------------ */
@@ -131,12 +142,10 @@ main, section {
 }
 
 .post-content h2 a {
-  text-decoration: none !important; /* Eliminar subrayado por defecto */
   color: #201449 !important; /* Color del título */
 }
 
 .post-content h2 a:hover {
-  text-decoration: underline !important; /* Subrayado al pasar el cursor */
   color: #cb6ce6 !important; /* Cambiar color al pasar el cursor */
 }
 
