@@ -9,18 +9,18 @@
 :root {
   // --- COLORS --- //
   // Squadra Labs colors
-  --clr-purple-dark: #1B0233;
-  --clr-purple: #6104AA;
-  --clr-purple-light: #8734EB;
-  --clr-purple-lighter: #EDE1FF;
-  --clr-pink-light: #CF8CF2;
+  --clr-purple-dark: #1b0233;
+  --clr-purple: #6104aa;
+  --clr-purple-light: #8734eb;
+  --clr-purple-lighter: #ede1ff;
+  --clr-pink-light: #cf8cf2;
   // B&W colors
-  --clr-gray-darkest: #0B0B0B;
+  --clr-gray-darkest: #0b0b0b;
   --clr-gray-darker: #444;
   --clr-gray-dark: #696969;
   --clr-gray: #999999;
-  --clr-gray-light: #CCCCCC;
-  --clr-gray-lighter: #ECECEC;
+  --clr-gray-light: #cccccc;
+  --clr-gray-lighter: #ececec;
 
   // --- FONTS --- //
   --font-bold: 600;
@@ -115,7 +115,7 @@ section {
   background-repeat: no-repeat;
   background-position: left;
   background-attachment: fixed;
-  
+
   --clr-accent: var(--clr-purple-dark);
 
   .container {
@@ -178,14 +178,11 @@ section {
   border-radius: 25px;
 
   &:hover {
-    // border: 1px solid var(--clr-purple-light);
     transform: scale(1.05);
   }
 
   img {
     width: 100%;
-    //max-height: 300px;
-    //object-fit: cover;
     height: auto;
     object-fit: contain;
   }
@@ -238,7 +235,6 @@ $imgAnimation: 22s;
     width: $imgWidth;
     margin: 0 $imgMargin;
     box-shadow: 0 0.5em 1em -0.35em var(--clr-gray-light);
-    
   }
 
   // This only adds gradient-shadow above the tool slider
@@ -263,32 +259,79 @@ $imgAnimation: 22s;
 
 /* ------------------ Footer  ------------------ */
 
-.footer {
-  padding: 1em 0;
+.site-footer {
+  padding: 2em 0;
+  color: white;
+  background-color: var(--clr-purple-dark);
 
-  .container {
-    max-width: 50em;
-  }
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  gap: 1rem;
+}
 
-  ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 20%;
+  padding: 0;
+  line-height: 0;
+
+  --clr-accent: white;
+  background-color: white;
+
+  transition: all 0.3s ease;
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    color: var(--clr-purple-dark);
+    margin: 0;
     padding: 0;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
-  li {
-    text-align: center;
-  }
-
-  a {
-    padding: 0.25em 0.5em;
-    display: block;
-    color: white;
-    --clr-accent: var(--clr-pink-light);
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 }
+}
+// .footer {
+//   padding: 1em 0;
+
+//   .container {
+//     max-width: 50em;
+//   }
+
+//   ul {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 0 auto;
+//     padding: 0;
+//   }
+
+//   li {
+//     text-align: center;
+//   }
+
+//   a {
+//     padding: 0.25em 0.5em;
+//     display: block;
+//     color: white;
+//     --clr-accent: var(--clr-pink-light);
+//   }
+// }
 
 /* ------------------ Utility Classes ------------------ */
 
@@ -318,7 +361,7 @@ $imgAnimation: 22s;
 .btn {
   display: inline-block;
   padding: 1em 3em;
-  color:white;
+  color: white;
   background-color: var(--clr-purple-dark);
   border-radius: 15px;
 }
