@@ -337,8 +337,8 @@ section {
 }
 
 .bg-secondary {
-  background-color: var(--clr-purple-lighter);
-  color: var(--clr-purple-dark);
+  background-color: var(--clr-purple-dark);
+  color: white;
 }
 
 .bg-primary-light {
