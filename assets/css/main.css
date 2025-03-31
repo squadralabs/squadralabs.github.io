@@ -359,3 +359,13 @@ section {
 .shadow-light {
   --clr-shadow: var(--clr-gray-lighter);
 }/*# sourceMappingURL=main.css.map */
+
+@media (max-width: 768px) {
+  .hero {
+    background-image: url(../img/hero/world_dots_purple_mobile.png);
+    background-attachment: scroll; /* evita problemas en mobile */
+    background-position: center;
+    background-size: cover;
+  }
+}
+
