@@ -372,3 +372,9 @@ section {
   }
 }
 
+ /* no menu en mobile */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+}
