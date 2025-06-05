@@ -292,7 +292,7 @@ section {
 .text-xxl {
   font-size: clamp(2.75rem, 6vw, 3.5rem);
   line-height: 1.1;
-  font-weight: 300; /* de 600 a 300 */  /*font-weight: var(--font-bold); */
+  font-weight: 400; /* de 600 a 300 */  /*font-weight: var(--font-bold); */
   letter-spacing: 0.5px;
 
 
