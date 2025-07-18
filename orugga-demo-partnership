@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orugga Sales Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      color: #0056b3;
+    }
+    p {
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Demo técnica para Orugga</h1>
+  <p>Squadra Labs está desarrollando una demostración técnica para Orugga como parte de una prueba de concepto.</p>
+  <p>Este desarrollo incluye un bot conversacional de WhatsApp bajo el nombre <strong>“Orugga Sales Demo by Squadra Labs”</strong>, utilizado únicamente con fines demostrativos y de evaluación.</p>
+  <p>Esta instancia no representa una comunicación oficial por parte de la empresa Orugga.</p>
+  <p>Para más información, contactanos a <a href="mailto:info@squadralabs.com">info@squadralabs.com</a>.</p>
+</body>
+</html>
